@@ -15,6 +15,12 @@ class String
   end
 
   def count_sentences
-    self.split.end_with?(".", "?", "!")
+    sentence = self.split
+    count = 0
+    sentence.each do |words|
+      count += 1
+      if words.end_with?(".") || words.end_with?("!") || words.end_with?("?")
+      end
+    count
   end
 end
