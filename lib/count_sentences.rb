@@ -2,13 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(string)
-    @string = string
-    if self.@string.end_with?(".")
-      true
-    else
-      false
-    end
+  def sentence?
+    self.end_with(".")
   end
 
   def question?
