@@ -4,7 +4,7 @@ class String
 
   def sentence?(string)
     @string = string
-    if @string.end_with?(".")
+    if self.@string.end_with?(".")
       true
     else
       false
