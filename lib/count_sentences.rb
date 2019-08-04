@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(string)
-    if string.end_with?(".") ? true || false
+    if string.end_with?(".") ? true : false
   end
 
   def question?
