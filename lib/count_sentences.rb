@@ -18,8 +18,7 @@ class String
     sentence = self.split
     count = 0
     sentence.each do |words|
-      count += 1
-      if words.end_with?(".") || words.end_with?("!") || words.end_with?("?")
+      count += 1 if words.end_with?(".") || words.end_with?("!") || words.end_with?("?")
       end
     count
   end
